@@ -1,0 +1,36 @@
+<app-carousel [proportion]="30" [slides]="slides"></app-carousel>
+<br><br>
+<div class="public-quote center">
+    "And He found you lost and guided [you] | Surah Ad-Duhaa 93:7."
+</div>
+<br><br><br><br><br><br>
+<fancy-box theme="theme3" icon="people">
+    <div title>
+        Certified Qari
+    </div>
+    <div content class="line-height justify">
+        <p>
+            The MADRASA has on its rolls qualified and committed staff.
+            At MADRASA, the QARIS- the jewels of the MADRASA are ever
+            improving personalities.They are innovative and interactive in their teaching.
+        </p>
+        <p>
+            We believe that the QARIS are who gives you something to take home to think about besides homework. Our
+            teaching is not jsut limited to QURAN.
+        </p>
+        <p>
+            QARI at MADRASA motivate the students and teach them how
+            to work together. Everyone who remembers his own education remembers QARIS, not methods and techniques.
+            The teachers are the
+            heart of our educational system.
+        </p>
+        <br><br>
+    </div>
+</fancy-box>
+
+<div *ngIf="isLoading">
+    <app-loader></app-loader>
+    <br><br>
+</div>
+
+<app-what-we-offer></app-what-we-offer>
